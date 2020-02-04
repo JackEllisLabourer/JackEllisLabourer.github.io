@@ -32,12 +32,12 @@ function Circle(x, y, dx, dy, radius){
 }
 function init(){
     circleArray = [];
-    for(var i = 0; i < 50; i++){
+    for(var i = 0; i < 30; i++){
         var radius = Math.random() * 10 + 1;
         var x = Math.random() * (innerWidth - radius * 2) + radius;
         var y = Math.random() * (innerHeight  - radius * 2) + radius;
-        var dx = (Math.random() - 0.5) * 2;
-        var dy = (Math.random() - 0.5) * 2;
+        var dx = (Math.random() - 0.3) * 2;
+        var dy = (Math.random() - 0.3) * 2;
         circleArray.push(new Circle(x, y, dx, dy, radius));
     }
 }
