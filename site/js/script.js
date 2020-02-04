@@ -2,7 +2,7 @@ var canvas = document.querySelector('canvas');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 var c = canvas.getContext('2d');
-var colorArray =['#7E7CFF','#70DDFF','#70DDFF']
+var colorArray =['#5D8A94','#BADAE0','#535461']
 var circleArray = [];
 window.addEventListener('resize', function(){
     canvas.width = window.innerWidth;
@@ -36,8 +36,8 @@ function init(){
         var radius = Math.random() * 10 + 1;
         var x = Math.random() * (innerWidth - radius * 2) + radius;
         var y = Math.random() * (innerHeight  - radius * 2) + radius;
-        var dx = (Math.random() - 0.3) * 2;
-        var dy = (Math.random() - 0.3) * 2;
+        var dx = (Math.random() - 0.1) * 2;
+        var dy = (Math.random() - 0.1) * 2;
         circleArray.push(new Circle(x, y, dx, dy, radius));
     }
 }
