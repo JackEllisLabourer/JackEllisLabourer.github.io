@@ -2,7 +2,7 @@ var canvas = document.querySelector('canvas');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 var c = canvas.getContext('2d');
-var colorArray =['#5D8A94','#BADAE0','#535461']
+var colorArray =['#5D8A94','#BADAE0'];
 var circleArray = [];
 window.addEventListener('resize', function(){
     canvas.width = window.innerWidth;
