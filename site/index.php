@@ -11,7 +11,7 @@
     <div class="overlay"></div>
     
     <div class="header">
-        <h1>Jack Ellis Plastering</h1>
+        
     </div>
     
     
